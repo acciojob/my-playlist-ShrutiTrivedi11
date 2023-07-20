@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+.player_one ul {
+	list-style-type: none;
+}
+.player_container {
+	background-color: #ffffff; /* White background color */
+  padding: 20px; /* Add some padding around the playlist */
+  border: 1px solid #ccc; /* Optional: Add a border around the container */
+  border-radius: 5px;
+}
+.player_two {
+  width: 100%; /* Make the video player fill the container's width */
+  border: 1px solid white;
+  border-radius: 1px;
+}
+.video-container {
+	background-color: #ffffff;
+  text-align: center; /* Center the video player horizontally */
+  max-width: 300px; /* Optional: Set a maximum width for the video player */
+  margin: 20px auto; /* Add some margin for spacing */
+}
